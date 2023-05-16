@@ -13,7 +13,6 @@ env:
   TF_CLOUD_ORGANIZATION: "fawaz"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "githubactions"
-  CONFIG_DIRECTORY: "./"
 
 jobs:
   terraform:
