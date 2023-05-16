@@ -12,7 +12,7 @@ env:
   TF_CLOUD_HOSTNAME: "tfe-md-new-2.fawaz-akhtar.sbx.hashidemos.io"
   TF_CLOUD_ORGANIZATION: "fawaz"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "learn-terraform-github-actions"
+  TF_WORKSPACE: "githubactions"
   CONFIG_DIRECTORY: "./"
 
 jobs:
